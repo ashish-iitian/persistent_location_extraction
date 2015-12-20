@@ -1,5 +1,5 @@
 # persistent_location_extraction
-My internship work in summer 2015: Project to extract mobility insights and find persistent location for over a million cell-phone users of a tier-1 US telecom operator. "Persistent location" is one where the user spends most of his time (may or may not be his home).
+My internship work in summer 2015 for Newfield Wireless, a Berkeley based company: Project to extract mobility insights and find persistent location for over a million cell-phone users of a tier-1 US telecom operator. "Persistent location" is one where the user spends most of his time (may or may not be his home).
 The script "dls_reader" is where I played with user's mobility patterns to see what if any statistical properties can be observed to hold, say with regards to distance travelled before generating a new location on the move, mean time between generation of new locations etc.
 
 To model their mobility patterns, I applied curve-fitting, local minima analysis and weighted k-means clustering algorithms. Each of these approaches had its own advantages and shortcomings and the same were studied.
